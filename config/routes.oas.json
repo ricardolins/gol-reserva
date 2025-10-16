@@ -22,7 +22,10 @@
             }
           },
           "policies": {
-            "inbound": []
+            "inbound": [
+              "api-key-inbound",
+              "rate-limit-inbound"
+            ]
           }
         },
         "operationId": "new-route-8f6144f4"
